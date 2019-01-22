@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    array = self.split(/[.?!]+/)
+    array = self.split(/[.?!]+/).count 
   end
   #Uses regex to provide an argument of what the .split method should split by. [.?!] means it will split by each of the characters within the brackets and \s means it will split by any whitespace character 
 end
